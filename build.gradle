@@ -10,10 +10,17 @@ repositories {
 	mavenCentral()
 }
 
-def runeLiteVersion = '1.6.35'
+def runeLiteVersion = '1.6.38'
 
 dependencies {
 	compileOnly group: 'net.runelite', name:'client', version: runeLiteVersion
+
+	// https://mvnrepository.com/artifact/net.sf.sociaal/freetts
+	compile group: 'net.sf.sociaal', name: 'freetts', version: '1.2.2'
+
+	// https://mvnrepository.com/artifact/org.jogamp.jogl/jogl-all-main
+	compile group: 'org.jogamp.jogl', name: 'jogl-all-main', version: '2.3.2'
+
 
 	compileOnly 'org.projectlombok:lombok:1.18.4'
 	annotationProcessor 'org.projectlombok:lombok:1.18.4'

@@ -86,7 +86,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.ColorUtil;
 
 @PluginDescriptor(
-	name = "Wintertodt",
+	name = "Easytodt",
 	description = "Show helpful information for the Wintertodt boss",
 	tags = {"minigame", "firemaking", "boss"}
 )
